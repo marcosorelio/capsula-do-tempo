@@ -27,7 +27,7 @@ Tecnologias Utilizadas:
 
 ### Como Usar:
 ------------
-Clone o repositório: git clone https://gitlab.com/depontoaponto/capsula-do-tempo.git
+Clone o repositório: git clone https://github.com/marcosorelio/capsula-do-tempo
 Navegue até o diretório do projeto: cd capsula-do-tempo
 Configure o servidor PHP e o banco de dados SQL conforme as instruções no arquivo schema-table.sql.
 Abra o arquivo index.html no seu navegador para começar a gravar vídeos.
