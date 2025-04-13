@@ -1,11 +1,20 @@
 # Cápsula do Tempo
 
-![Picture](/app/img/camera.png){width="200px"}
-
+<img src="./app/img/camera.png" style="display: block; margin-left: auto; margin-right: auto;" width="200">
 O projeto Cápsula do Tempo é uma aplicação web desenvolvida com HTML e JavaScript que permite aos usuários gravar vídeos de aproximadamente 2 minutos. Esses vídeos são então enviados para um servidor em PHP, onde são armazenados em um banco de dados SQL.
 
 ### Funcionalidades:
 ------------
+
+### Tela inicial
+| Primeira tela com informções sobre o aplicativo e termo de aceite:
+
+<img src="./app/img/Screenshot-1.png"  width="500">
+
+### Tela cadastro:
+| Cadastro simples para identificar a gravação:
+
+<img src="./app/img/Screenshot-2.png"  width="500">
 
 Gravação de vídeos de até 2 minutos diretamente no navegador.
 Envio dos vídeos para um servidor PHP.

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
+    <link rel="stylesheet" href="./app/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./app/css/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./app/css/main.css">
+    <link rel="icon" href="./app/img/camera-white.png">
+    <title>Comentarios Virtuais</title>
+
+</head>
+
+<body>
+
+    <div class="container mt-5 mb-5 d-flex justify-content-center">
+        <div class="card">
+            <div class="card-body">
+                <img src="./app/img/camera-white.png" class="img-fluid rounded mx-auto d-block" width="200px"
+                    height="200px">
+
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="form-group" style="margin-bottom: 2.5rem;">
+                            <p style="font-size: 2rem;" class="text-center">Cápsula do Tempo</p>
+                            <p class="text-center px-2 py-2">Queremos criar uma cápsula do tempo com as mensagens de
+                                carinho
+                                de todos
+                                que amamos!</p>
+                        </div>
+                    </div>
+                </div>
+                <form id="form-submit">
+                    <input type="hidden" name="user-session-value" id="user-session-value">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="form-group">
+                                <button class="btn btn-primary btn-block confirm-button" type="submit"
+                                    name="cadastrarToken">Começar</button>
+                                <p class="text-center"><small class="agree-text">Ao clicar
+                                        em começar, você concorda com os</small>
+                                    <a href="#" class="terms font-weight-bold">Termos e Condições.</a></small>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </div>
+    <div class="fixed-bottom">
+        <small class="footer-text">for little seal&nbsp;<i class="bi bi-heart-fill">&nbsp;</i></small>
+    </div>
+
+    <script src="./app/js/jquery-3.7.1.min.js"></script>
+    <script src="./app/js/bootstrap.bundle.min.js"></script>
+    <script src="./app/js/main.js"></script>
+    <script> $(document).ready(function () { $("#user-session-value").val(navigator.userAgent); });</script>
+
+</body>
+
+</html>
